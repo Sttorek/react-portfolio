@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/resume.pdf";
 
 function Footer() {
   return (
@@ -23,8 +24,7 @@ function Footer() {
           <i class="icon fab fa-github-square fa-3x"></i>
         </a>
 
-        <a target="blank" href="assets/resume.pdf">
-          {" "}
+        <a target="blank" href={resume}>
           <i class="icon fas fa-file fa-3x"></i>
         </a>
       </footer>
