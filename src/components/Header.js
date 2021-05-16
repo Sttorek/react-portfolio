@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header(props) {
+function Header() {
   return (
     <nav id="nav-bar">
       <h1 id="name">Seth Torek</h1>
