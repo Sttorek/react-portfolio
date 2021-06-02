@@ -3,7 +3,7 @@ import resume from "../assets/resume.pdf";
 
 function Footer() {
   return (
-    <div>
+    <div class="footCnt">
       <div id="foot-title">Check Me Out</div>
       <footer id="footer">
         <h1 class="temporary">706-308-8557</h1>

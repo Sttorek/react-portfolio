@@ -156,7 +156,10 @@ a {
 }
 
 #project-section {
-  margin-top: 300px;
+  background: linear-gradient(170deg, #22313F 50%, #F4F4F4);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0% 10%, 100% 0, 100% 96%, 0 100%);	
+  margin-top: 100px;
   height: 100px;
   height: auto;
   display: flex;
@@ -164,33 +167,56 @@ a {
   flex-direction: column;
 }
 
+#first-project {
+  margin-top: 250px;
+  
+}
+
 #project1 {
   width: 900px;
   height: 350px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 #sub-projects {
   margin-top: 30px;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #project2 {
   width: 700px;
   height: 300px;
   margin-right: 20px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 #project3 {
   width: 700px;
   height: 300px;
   margin-left: 20px;
-  border: 2px solid black;
+  border: 1px solid black;
+}
+
+#project4 {
+  width: 700px;
+  height: 300px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 300px;
+  border: 1px solid black;
+}
+
+#project5 {
+  width: 700px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: 1px solid black;
 }
 
 #foot-title {
-  margin-top: 300px;
+  padding-top: 100px;
   text-align: center;
   font-size: 40px;
 }
@@ -204,6 +230,10 @@ a {
   align-items: center;
   margin-left: 200px;
   margin-right: 200px;
+}
+
+.footCnt {
+  background: linear-gradient(176deg, #F4F4F4  60%, #22313F);
 }
 
 @media only screen and (max-width: 1600px) {
