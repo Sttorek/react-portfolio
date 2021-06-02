@@ -15,7 +15,7 @@ function Profile() {
         </p>
       </div>
 
-      <div id="about-cnt">
+      <div data-aos="fade-left" id="about-cnt">
         <h1 id="about">About Me</h1>
         <p id="about-me">
           In 2017 I became a Telecommunications Tower Technician for Summitt

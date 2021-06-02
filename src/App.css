@@ -167,26 +167,27 @@ a {
 #project1 {
   width: 900px;
   height: 350px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 #sub-projects {
   margin-top: 30px;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #project2 {
   width: 700px;
   height: 300px;
   margin-right: 20px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 #project3 {
   width: 700px;
   height: 300px;
   margin-left: 20px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 #project4 {
@@ -194,7 +195,15 @@ a {
   height: 300px;
   margin-right: 20px;
   margin-top: 30px;
-  border: 2px solid black;
+  border: 1px solid black;
+}
+
+#project5 {
+  width: 700px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: 1px solid black;
 }
 
 #foot-title {
