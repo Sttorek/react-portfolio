@@ -136,14 +136,6 @@ a {
   animation-duration: 2s;
 }
 
-@keyframes about {
-  from {
-    margin-left: 1000px;
-  }
-  to {
-    margin-left: 500px;
-  }
-}
 
 #about {
   border-bottom: 1px solid black;
@@ -156,9 +148,9 @@ a {
 }
 
 #project-section {
-  background: linear-gradient(170deg, #22313F 50%, #F4F4F4);
+  background: linear-gradient(170deg, #22313f 50%, #f4f4f4);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-  clip-path: polygon(0% 10%, 100% 0, 100% 96%, 0 100%);	
+  clip-path: polygon(0% 10%, 100% 0, 100% 96%, 0 100%);
   margin-top: 100px;
   height: 100px;
   height: auto;
@@ -169,13 +161,12 @@ a {
 
 #first-project {
   margin-top: 250px;
-  
 }
 
 #project1 {
   width: 900px;
   height: 350px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #sub-projects {
@@ -189,13 +180,13 @@ a {
   width: 700px;
   height: 300px;
   margin-right: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 #project3 {
   width: 700px;
   height: 300px;
   margin-left: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #project4 {
@@ -204,7 +195,7 @@ a {
   margin-right: 20px;
   margin-top: 30px;
   margin-bottom: 300px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #project5 {
@@ -212,7 +203,16 @@ a {
   height: 300px;
   margin-left: 20px;
   margin-top: 30px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+.skillCnt {
+  text-align: center;
+}
+
+.skills {
+  margin-top: 150px;
+  text-align: center;
 }
 
 #foot-title {
@@ -233,7 +233,41 @@ a {
 }
 
 .footCnt {
-  background: linear-gradient(176deg, #F4F4F4  60%, #22313F);
+  background: linear-gradient(176deg, #f4f4f4 60%, #22313f);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  text-align: center;
+  font-size: 21px;
+  padding: 10px;
+  border-radius: 15px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
 
 @media only screen and (max-width: 1600px) {
